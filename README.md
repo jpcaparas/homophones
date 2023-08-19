@@ -13,7 +13,7 @@ npm install homophones
 ### Basic Usage
 
 ```javascript
-const { HomophonesFinder } = require('homophones');
+const HomophonesFinder = require('homophones');
 
 const finder = new HomophonesFinder();
 
@@ -29,7 +29,7 @@ finder.find('bear').then(homophones => {
 If you want to provide a custom fetcher or set a different API endpoint:
 
 ```javascript
-const { HomophonesFinder, ApiFetcher } = require('homophones');
+const HomophonesFinder, { ApiFetcher } = require('homophones');
 
 const customFetcher = new ApiFetcher('https://customapi.com');
 const finder = new HomophonesFinder(customFetcher);

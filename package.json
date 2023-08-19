@@ -17,6 +17,10 @@
   ],
   "author": "JP Caparas <jp@jpcaparas.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpcaparas/homophones.git"
+  },
   "dependencies": {
     "axios": "^1.4.0",
     "ts-node": "^10.9.1",
